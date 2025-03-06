@@ -41,12 +41,12 @@
                 // Stampa i risultati in tabella
                 while ($row = $result->fetch_assoc()) {
                     echo "  <tr>
-                            <td>{$row['nome']}</td>
-                            <td>{$row['via']}</td>
-                            <td>{$row['citta']}</td>
-                            <td>{$row['nazione']}</td>
-                            <td>{$row['num_terminali']}</td>
-                            <td>{$row['num_piste']}</td>
+                                <td>{$row['nome']}</td>
+                                <td>{$row['via']}</td>
+                                <td>{$row['citta']}</td>
+                                <td>{$row['nazione']}</td>
+                                <td>{$row['num_terminali']}</td>
+                                <td>{$row['num_piste']}</td>
                             </tr>";
                 }
 
