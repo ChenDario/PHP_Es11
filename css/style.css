@@ -1,0 +1,67 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Stile generale del body */
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenitore del form */
+div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Stile etichetta */
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Stile input */
+input[type="text"] {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #4facfe;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Effetto focus sull'input */
+input[type="text"]:focus {
+    border-color: #00f2fe;
+    box-shadow: 0 0 5px #00f2fe;
+}
+
+/* Pulsante di invio (se presente in futuro) */
+input[type="submit"] {
+    background: #4facfe;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #00c1fe;
+}
